@@ -8,12 +8,15 @@ import {
   Stack,
   HStack,
   VStack,
+  Button,
+  useColorModeValue
 } from "@chakra-ui/react";
 import { CheckIcon } from "@chakra-ui/icons";
 
 export default function GridListWithHeading() {
   return (
-    <Box p={4}>
+    <Box p={4}
+    >
       <Stack spacing={4} as={Container} maxW={"3xl"} textAlign={"center"}>
         <Heading fontSize={"3xl"}>Course Syllabus</Heading>
       </Stack>
@@ -38,6 +41,19 @@ export default function GridListWithHeading() {
                     <Text fontWeight={600}>
                       Quarter I (Core)CS-101: Object-Oriented Programming using
                       TypeScript
+                      <Button
+        px={3}
+        mx={2}
+        bg={useColorModeValue('blue.500', 'gray.900')}
+        color={'white'}
+        rounded={'md'}
+        _hover={{
+          transform: 'translateY(-2px)',
+          boxShadow: 'lg',
+        }}
+        >
+        For Full syllabus
+      </Button>
                     </Text>
                   </VStack>
                 </HStack>
@@ -50,6 +66,19 @@ export default function GridListWithHeading() {
                       Quarter II (Core) W2-201: Developing Planet-Scale Web 2.0
                       Serverless Cloud Cloud Apps and APIs using Next.js 13 and
                       Cloud Development Kit (CDK) for Terraform
+                      <Button
+        px={3}
+        mx={2}
+        bg={useColorModeValue('blue.500', 'gray.900')}
+        color={'white'}
+        rounded={'md'}
+        _hover={{
+          transform: 'translateY(-2px)',
+          boxShadow: 'lg',
+        }}
+        >
+        For Full syllabus
+      </Button>
                     </Text>
                   </VStack>
                 </HStack>
@@ -61,6 +90,19 @@ export default function GridListWithHeading() {
                     <Text fontWeight={600}>
                       Quarter III (Core) $-101: Dollar Making Bootcamp -
                       Full-Stack Template and API Product Development
+                      <Button
+        px={3}
+        mx={2}
+        bg={useColorModeValue('blue.500', 'gray.900')}
+        color={'white'}
+        rounded={'md'}
+        _hover={{
+          transform: 'translateY(-2px)',
+          boxShadow: 'lg',
+        }}
+        >
+        For Full syllabus
+      </Button>
                     </Text>
                   </VStack>
                 </HStack>
@@ -77,9 +119,18 @@ export default function GridListWithHeading() {
                 each:
               </Text>
               <Container maxW={"1x2"} mt={30}>
-                <SimpleGrid columns={{ base: 1, md: 1, lg: 1 }} spacing={10}>
+                <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={20}>
                   <HStack align={"top"}>
                     <VStack align={"start"}>
+                      <Box maxW={'450px'}
+                      w={'full'}
+                      bg={useColorModeValue('blue.100', 'green.800')}
+                      boxShadow={'2xl'}
+                      rounded={'md'}
+                      overflow={'hidden'}
+                      padding={'25px'}
+                      // boxSize={'500px'}
+                      >
                       <Text fontWeight={600}>
                         1. Web 3.0 (Blockchain) and Metaverse Specialization
                       </Text>
@@ -111,10 +162,35 @@ export default function GridListWithHeading() {
                           </Text>
                         </VStack>
                       </HStack>
+                      <Button
+        px={3}
+        mt={2}
+
+        bg={useColorModeValue('blue.500', 'gray.900')}
+        color={'white'}
+        rounded={'md'}
+        _hover={{
+          transform: 'translateY(-2px)',
+          boxShadow: 'lg',
+        }}
+        >
+        For Full syllabus
+      </Button>
+                      </Box>
                     </VStack>
                   </HStack>
                   <HStack align={"top"}>
                     <VStack align={"start"}>
+                    <Box maxW={'450px'}
+                      w={'full'}
+                      bg={useColorModeValue('blue.100', 'green.800')}
+                      boxShadow={'2xl'}
+                      rounded={'md'}
+                      overflow={'hidden'}
+                      padding={'25px'}
+                      // boxSize={'500px'}
+
+                      >
                       <Text fontWeight={600}>
                         2. Artificial Intelligence (AI) and Deep Learning
                         Specialization
@@ -144,10 +220,35 @@ export default function GridListWithHeading() {
                           </Text>
                         </VStack>
                       </HStack>
+                      <Button
+        px={3}
+        mt={2}
+
+        bg={useColorModeValue('blue.500', 'gray.900')}
+        color={'white'}
+        rounded={'md'}
+        _hover={{
+          transform: 'translateY(-2px)',
+          boxShadow: 'lg',
+        }}
+        >
+        For Full syllabus
+      </Button>
+                      </Box>
                     </VStack>
                   </HStack>
                   <HStack align={"top"}>
                     <VStack align={"start"}>
+                    <Box maxW={'450px'}
+                      w={'full'}
+                      bg={useColorModeValue('blue.100', 'green.800')}
+                      boxShadow={'2xl'}
+                      rounded={'md'}
+                      overflow={'hidden'}
+                      padding={'25px'}
+                      // boxSize={'500px'}
+
+                      >
                       <Text fontWeight={600}>
                         3. Cloud-Native Computing Specialization
                       </Text>
@@ -175,10 +276,35 @@ export default function GridListWithHeading() {
                           </Text>
                         </VStack>
                       </HStack>
+                      <Button
+        px={3}
+        mt={2}
+
+        bg={useColorModeValue('blue.500', 'gray.900')}
+        color={'white'}
+        rounded={'md'}
+        _hover={{
+          transform: 'translateY(-2px)',
+          boxShadow: 'lg',
+        }}
+        >
+        For Full syllabus
+      </Button>
+                      </Box>
                     </VStack>
                   </HStack>
                   <HStack align={"top"}>
                     <VStack align={"start"}>
+                    <Box maxW={'450px'}
+                      w={'full'}
+                      bg={useColorModeValue('blue.100', 'green.800')}
+                      boxShadow={'2xl'}
+                      rounded={'md'}
+                      overflow={'hidden'}
+                      padding={'25px'}
+                      // boxSize={'500px'}
+
+                      >
                       <Text fontWeight={600}>
                         4. Ambient Computing and IoT Specialization
                       </Text>
@@ -209,10 +335,34 @@ export default function GridListWithHeading() {
                           </Text>
                         </VStack>
                       </HStack>
+                      <Button
+        px={3}
+        mt={2}
+        bg={useColorModeValue('blue.500', 'gray.900')}
+        color={'white'}
+        rounded={'md'}
+        _hover={{
+          transform: 'translateY(-2px)',
+          boxShadow: 'lg',
+        }}
+        >
+        For Full syllabus
+      </Button>
+                      </Box>
                     </VStack>
                   </HStack>
                   <HStack align={"top"}>
                     <VStack align={"start"}>
+                    <Box maxW={'450px'}
+                      w={'full'}
+                      bg={useColorModeValue('blue.100', 'green.800')}
+                      boxShadow={'2xl'}
+                      rounded={'md'}
+                      overflow={'hidden'}
+                      padding={'25px'}
+                      // boxSize={'500px'}
+
+                      >
                       <Text fontWeight={600}>
                         5. Genomics and Bioinformatics Specialization
                       </Text>
@@ -244,10 +394,34 @@ export default function GridListWithHeading() {
                           </Text>
                         </VStack>
                       </HStack>
+                      <Button
+        px={3}
+        mt={2}
+        bg={useColorModeValue('blue.500', 'gray.900')}
+        color={'white'}
+        rounded={'md'}
+        _hover={{
+          transform: 'translateY(-2px)',
+          boxShadow: 'lg',
+        }}
+        >
+        For Full syllabus
+      </Button>
+                      </Box>
                     </VStack>
                   </HStack>
                   <HStack align={"top"}>
                     <VStack align={"start"}>
+                    <Box maxW={'450px'}
+                      w={'full'}
+                      bg={useColorModeValue('blue.100', 'green.800')}
+                      boxShadow={'2xl'}
+                      rounded={'md'}
+                      overflow={'hidden'}
+                      padding={'25px'}
+                      // boxSize={'500px'}
+
+                      >
                       <Text fontWeight={600}>
                         6. Network Programmability and Automation Specialization
                       </Text>
@@ -280,6 +454,20 @@ export default function GridListWithHeading() {
                           </Text>
                         </VStack>
                       </HStack>
+                      <Button
+        px={3}
+        mt={2}
+        bg={useColorModeValue('blue.500', 'gray.900')}
+        color={'white'}
+        rounded={'md'}
+        _hover={{
+          transform: 'translateY(-2px)',
+          boxShadow: 'lg',
+        }}
+        >
+        For Full syllabus
+      </Button>
+                      </Box>
                     </VStack>
                   </HStack>
                 </SimpleGrid>

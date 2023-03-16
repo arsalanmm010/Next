@@ -1,5 +1,5 @@
-'use client'
-import { ChakraProvider } from "@chakra-ui/react"
+import ChakraWrapper from "./components/Chakra"
+
 
 export const metadata = {
   title: 'Create Next App',
@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body><ChakraProvider>{children}</ChakraProvider></body>
+      <body><ChakraWrapper>{children}</ChakraWrapper></body>
     </html>
   )
 }

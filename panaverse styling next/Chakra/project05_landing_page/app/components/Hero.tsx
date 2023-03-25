@@ -1,4 +1,4 @@
-import { Box, Button, Flex,Heading, Text,VStack, Image } from "@chakra-ui/react"
+import { Box, Button, Flex,Heading, Text,VStack, Image, Card } from "@chakra-ui/react"
 import { ChevronRightIcon } from "@chakra-ui/icons"
 
 export default function Hero() {
@@ -14,9 +14,9 @@ export default function Hero() {
           <Button  bg='green.500' color='white'>Create your account now <ChevronRightIcon /></Button>
           <Text fontSize={12}>No credit card required</Text>
           </VStack>
-          <VStack w='100%'>
+          <Card w='100%'>
             <Image src='/plant.jpeg' alt='s' h={300}/>
-          </VStack>
+          </Card>
         </Flex>
       </Box>      
     </div>

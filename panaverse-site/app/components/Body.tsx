@@ -4,9 +4,9 @@ import { Box, VStack,Text, Heading, Card, Button, Image, CardBody, CardHeader, S
 export default function Body() {
   return (
     <Stack 
-      h='640px' 
+      h={['1000px', '1000px', '640px']} 
       bg='gray.300' 
-      direction='row' 
+      direction={['column', 'column', 'row']} 
       spacing={50}
       py='100px'
       px='52px'

@@ -6,7 +6,7 @@ export default function Hero() {
     <Box pt='140px'>
         <VStack mb='40px'>
            <Heading w='80%' fontFamily='Raleway' fontWeight='400' fontSize='48px'>We Are <Text as='span' color='blue'>Proud</Text></Heading>
-           <Text w='80%' fontSize='15px' fontFamily='Nunito' mb='20px' color='gray'>You don't have to struggle alone, you've got our assistance and help.</Text>
+           <Text w='80%' fontSize='15px' fontFamily='Nunito' mb='20px' color='gray'>You dont have to struggle alone, youve got our assistance and help.</Text>
            <Flex w='100%' flexDirection={['column', 'column', 'row']} justify='space-between' px='40px'>
               <Card w={['90%', '90%', '24%']} h='240px' bg='blue.600' color='white' alignItems='center' justifyContent='center'>
                     <Image src='/img1.png' alt='img'/>
@@ -30,7 +30,7 @@ export default function Hero() {
               </Card>
               <Card w={['90%', '90%', '24%']} h='240px' bg='green.500' color='white' alignItems='center' justifyContent='center'>
         
-                    <Image />
+                    <Image src="img1.png" alt='img'/>
                     <Text fontSize='34px'>1,000</Text>
                     <Text fontSize='15px'>Students Enrolled</Text>
     
@@ -46,7 +46,7 @@ export default function Hero() {
            <VStack w={['90%', '90%', '50%']} align='flex-start' pl={['5px','5px','100px']} >
               <Heading mb='30px'>What is Web 3.0</Heading>
               <Text color='gray' fontSize='16px'>
-                 Web 3.0 has the potential to change the internet as we know it forever. You're still early in catching the trend and building your first blockchain application, acquiring the skills to get a high- paying job, or creating your own web 3.0 projects that can make you money. In Web 2.0 all the data is controlled by the Big Tech companies, such as Google, Apple, etc. In the decentralized web, no single person/ company owns any data or information about anyone, and everything is visible to the public. Web3, also known as the decentralized web, is the third and latest" phase” of the internet. Web3 is built on peer-to-peer networks of computers that talk to each other without middlemen.
+                 Web 3.0 has the potential to change the internet as we know it forever. Youre still early in catching the trend and building your first blockchain application, acquiring the skills to get a high- paying job, or creating your own web 3.0 projects that can make you money. In Web 2.0 all the data is controlled by the Big Tech companies, such as Google, Apple, etc. In the decentralized web, no single person/ company owns any data or information about anyone, and everything is visible to the public. Web3, also known as the decentralized web, is the third and latest phase of the internet. Web3 is built on peer-to-peer networks of computers that talk to each other without middlemen.
               </Text>
               <Button colorScheme='blue'>Read More</Button>
            </VStack>
@@ -54,7 +54,7 @@ export default function Hero() {
         <VStack alignContent='center' justifyContent='center' mb='90px'>
            <Heading fontSize={['32px','32px','48px']} fontWeight='normal'>The Program in a Nutshell</Heading>
            <Heading fontSize={['24px', '24px', '30px']} fontWeight='normal' color='red'>Earn While You Learn</Heading>
-           <Text textAlign='center' w='50%' fontSize={['14px', '14px','18px']} color='gray' >In this brand-new type of curriculum, students will learn how to make money and boost exports in the classroom and will begin doing so within six months of the program's beginning. It resembles a cross between a corporate venture and an educational project.</Text>
+           <Text textAlign='center' w='50%' fontSize={['14px', '14px','18px']} color='gray' >In this brand-new type of curriculum, students will learn how to make money and boost exports in the classroom and will begin doing so within six months of the programs beginning. It resembles a cross between a corporate venture and an educational project.</Text>
         </VStack>
 
         <HStack mx='30px' flexDirection={['column', 'column', 'row']} justify='space-between' mb='40px'>

@@ -4,14 +4,11 @@ import { Box, VStack,Text, Heading, Card, Button, Image, CardBody, CardHeader, S
 export default function Body() {
   return (
     <Stack 
-      h={['1000px', '1000px', '640px']} 
-      bg='gray.300' 
-      direction={['column', 'column', 'row']} 
-      spacing={50}
-      py='100px'
-      px='52px'
-      justifyContent='space-around'
-    >
+    h={['980px', '850px', '640px']} 
+    bg='gray.300' 
+    flexDirection={['column', 'column', 'row']} 
+    py='100px' 
+    justifyContent='space-around'>
       <VStack spacing={7} alignItems='flex-start' maxW='450px'>
         <Text color='blue' fontSize='16px'>Discover your journey</Text>
         <Heading as='h1' fontSize='48px' fontWeight='light'>Launch Your Dev Career With Web 3 and Metaverse</Heading>
